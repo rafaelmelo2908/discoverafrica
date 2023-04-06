@@ -1,0 +1,52 @@
+.button {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .button {
+        display: flex;
+        background: #222;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-family: 'africah2', sans-serif;
+        font-weight: bold;
+        color: #fb5;
+        cursor: pointer;
+        margin: 10px;
+        align-items: center;
+    }
+
+    
+    .button::before{
+        margin-right: 5px;
+        content: '';
+        display: inline-block;
+        height: 2px;
+        width: 12px;
+        background: #fb5;
+        box-shadow: 0 4px #fb5, 0 -4px #fb5;
+        transition: transform .5s;
+    }
+
+    .button.active::before {
+        transform: rotate(90deg);
+    }
+
+
+    #menu {
+        display: none;
+        position: absolute;
+        background: #fb5;
+        width: 160px;
+        padding: 20px 0 20px 10px;
+        z-index: 200;
+        box-shadow: 2px 2px 2px 0 rgba(255, 255, 255, 0.384);
+    }
+
+    #menu.active {
+        display: block;
+        animation: show-rigth .3s forwards;
+    }
+}
