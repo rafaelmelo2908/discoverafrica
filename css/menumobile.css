@@ -43,10 +43,12 @@
         padding: 20px 0 20px 10px;
         z-index: 200;
         box-shadow: 2px 2px 2px 0 rgba(255, 255, 255, 0.384);
+        
     }
 
     #menu.active {
         display: block;
-        animation: show-rigth .3s forwards;
+        animation: show .5s forwards;
+        
     }
 }

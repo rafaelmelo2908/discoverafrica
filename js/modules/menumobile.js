@@ -11,7 +11,7 @@ function openMenu(event) {
 }
 
 menuButton.addEventListener('click', openMenu);
-
+menuList.addEventListener('click', openMenu);
 
 
 }
