@@ -27,7 +27,7 @@ ul {
 }
 
 body {
-    background: #000;
+    background: #000000;
     color: #fff;
     -webkit-font-smoothing: antialiased;
     
@@ -114,8 +114,9 @@ body {
 .places p {
     line-height: 1.2;
     margin-bottom: 16px;
-    text-align: justify;
-    
+    text-align: left;
+    font-size: 16px;
+    font-weight: 100;
     
 }
 
@@ -168,6 +169,7 @@ body {
 .about-list dd {
     margin-bottom: 8px;
     margin-left: 30px;
+    font-size: 20px;
 }
 
 .map {
@@ -217,6 +219,10 @@ body {
     .grid-section {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .places p {   
+        font-size: 20px;   
     }
 
     .places-list {
@@ -301,4 +307,13 @@ body {
     opacity: 1;
     transform: translate3d(0, 0, 0);
     
+}
+
+.africans {
+    z-index: -1;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: .3;
 }

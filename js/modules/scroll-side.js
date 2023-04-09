@@ -12,8 +12,10 @@ export default function initAnimationScroll() {
                 const sectionTop = section.getBoundingClientRect().top;
                 const isSectionVisible = (sectionTop - windowHalf);
 
-                if(isSectionVisible < 0) {
-                    section.classList.add('active');
+                if(isSectionVisible)
+                section.classList.add('active');
+                else if(section.classList.contains('active')) {
+                    section.classList.remove('active');
                 }
             })
         }
