@@ -204,13 +204,20 @@ body {
 }
 
 .copy {
+    display: flex;
+    align-items: center;
     grid-column: 3 / 5;
     margin-bottom: 32px;
     background: #fb5;
 }
 
+.copy img {
+    max-width: 60px;
+    margin-left:15px ;
+}
+
 .copy p {
-   padding: 20px;
+   padding: 20px 0 20px;
    font-family: 'africah2', sans-serif;
    text-transform: uppercase;
    color: #000;
