@@ -85,6 +85,16 @@ body {
     border-image: url(/img/bg.svg) 30 round;
 }
 
+.sub-title {
+    font-family: 'africa', sans-serif;
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 16px;
+    grid-column: 1 / 4;
+    border-bottom: 10px solid transparent;
+    border-image: url(/img/bg.svg) 30 round;
+}
+
 .grid-section .image {
     grid-column: 2;
     color: gray;
@@ -307,6 +317,14 @@ body {
     opacity: 1;
     transform: translate3d(0, 0, 0);
     
+}
+
+.btc-price {
+    background: #fb5;
+    padding: 4px 8px ;
+    font-weight: bold;
+    border-radius: 2px;
+    color: #000;
 }
 
 .africans {

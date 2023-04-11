@@ -13,7 +13,7 @@ export default function initNumbers() {
             clearInterval(timer);
         }
 
-        }, 50)
+        }, 150)
     
     })
 

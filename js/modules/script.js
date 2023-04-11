@@ -5,6 +5,7 @@ import initTabNav from '../modules/tabnav.js';
 import backToTop from '../modules/backtop.js';
 import initMenuMobile from '../modules/menumobile.js';
 import initNumbers from '../modules/numbers.js';
+import initFetchBitcoin from '../modules/fetch-bitcoin.js';
 
 
 initScroll();
@@ -14,4 +15,5 @@ initTabNav();
 backToTop();
 initMenuMobile();
 initNumbers();
+initFetchBitcoin();
 
