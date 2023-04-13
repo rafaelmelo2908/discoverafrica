@@ -21,13 +21,12 @@
       <li>JavaScript</li>
     </ul>
     <h2>Features</h2>
-    <p>The Barbershop Site has several features that make it easy to navigate and use. These include:</p>
+    <p>The Site has several features that make it easy to navigate and use. These include:</p>
     <ul>
       <li>Responsive layout that adapts to different screen sizes</li>
       <li>Navigation bar that links to different sections of the site</li>
-      <li>Services section with prices and descriptions</li>
-      <li>Booking form that allows customers to schedule appointments</li>
-      <li>Contact section with phone number and email address</li>
+      <li>Interaction with images and text </li>
+      <li>Animations when you go up or go down</li>
       <li>Footer with social media links</li>
     </ul>
     <h2>Contributions</h2>
