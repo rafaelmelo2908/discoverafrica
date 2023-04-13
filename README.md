@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Discover Africa Web Site - README</title>
+	
 </head>
 <body>
 	<header>
@@ -29,10 +29,7 @@
 			<h2>Issues</h2>
 			<p>If you encounter any issues with the site or have any suggestions for improvements, you can create an issue on the project's GitHub repository.</p>
 		</section>
-		<section>
-			<h2>License</h2>
-			<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
-		</section>
+		
 		<section>
 			<h2>Acknowledgments</h2>
 			<p>The project was inspired by the beauty of Africa and the need to promote tourism on the continent.</p>
